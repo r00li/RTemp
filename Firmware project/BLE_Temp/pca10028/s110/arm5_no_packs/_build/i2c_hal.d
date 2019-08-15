@@ -1,0 +1,17 @@
+.\_build\i2c_hal.o: ..\..\..\Sensirion\I2C_HAL.c
+.\_build\i2c_hal.o: ..\..\..\Sensirion\I2C_HAL.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\device\nrf51.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\toolchain\system_nrf51.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\device\nrf51_bitfields.h
+.\_build\i2c_hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\i2c_hal.o: ..\..\..\Sensirion\typedefs.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\drivers_nrf\hal\nrf_delay.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\device\nrf.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\device\nrf51_deprecated.h
+.\_build\i2c_hal.o: ..\..\..\..\..\..\components\device\compiler_abstraction.h
