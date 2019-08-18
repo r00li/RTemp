@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BLETemp.PcbDoc]
+   Generated File[BLETemp.TXT]
+   Generated File[BLETemp.LDP]
+   Generated File[BLETemp.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:02:13 On 18.8.2019

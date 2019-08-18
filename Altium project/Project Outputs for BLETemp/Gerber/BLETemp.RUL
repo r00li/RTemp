@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: \\macbook3\roli\Dokumenti\Projekti\Elektronika projekti\ARM projekti\BLETEMP\DISTRIB\BLETemp\Altium project\BLETemp.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.57
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.48
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

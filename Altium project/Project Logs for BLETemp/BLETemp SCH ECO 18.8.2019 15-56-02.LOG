@@ -1,0 +1,28 @@
+Change Component Parameter Library Name in C1 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C2 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C3 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C6 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C7 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C8 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C9 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C10 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C11 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C12 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C13 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C14 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C16 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in C17 Old=PBL - Capacitors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in K1 Old=Kon_Tipk.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in L1 Old=Miscellaneous Devices.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in L2 Old=Miscellaneous Devices.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in L3 Old=Miscellaneous Devices.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in LED1 Old=Displays.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in R3 Old=PBL - Resistors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in R4 Old=PBL - Resistors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in R5 Old=PBL - Resistors.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in U2 Old=moja_knj.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in U3 Old=pca10028.SCHLIB New=BLETemp.IntLib
+Change Component Parameter Library Name in U7 Old=Projekt seminar.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in U8 Old=Projekt seminar.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in X1 Old=moja_knj.IntLib New=BLETemp.IntLib
+Change Component Parameter Library Name in X2 Old=Projekt seminar.IntLib New=BLETemp.IntLib

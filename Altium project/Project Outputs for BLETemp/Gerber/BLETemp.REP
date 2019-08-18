@@ -1,9 +1,9 @@
 *************************************************************
-FileName = seminar_pcb.GBR
+FileName = BLETemp.GBR
 AutoAperture = True
 *************************************************************
 Generating : Top Layer
-      File : seminar_pcb.GTL
+      File : BLETemp.GTL
 
     Adding Layer      : Top Layer
 
@@ -42,7 +42,7 @@ Used DCodes :
 
 *************************************************************
 Generating : Bottom Layer
-      File : seminar_pcb.GBL
+      File : BLETemp.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -50,8 +50,8 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D26
     D27
+    D29
     D33
     D34
     D35
@@ -61,15 +61,15 @@ Used DCodes :
 
 *************************************************************
 Generating : Top Overlay
-      File : seminar_pcb.GTO
+      File : BLETemp.GTO
 
     Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D26
     D27
-    D32
+    D28
+    D29
     D38
     D39
     D40
@@ -80,7 +80,7 @@ Used DCodes :
 
 *************************************************************
 Generating : Top Solder
-      File : seminar_pcb.GTS
+      File : BLETemp.GTS
 
     Adding Layer      : Top Solder
 
@@ -113,7 +113,7 @@ Used DCodes :
 
 *************************************************************
 Generating : Bottom Solder
-      File : seminar_pcb.GBS
+      File : BLETemp.GBS
 
     Adding Layer      : Bottom Solder
 
@@ -130,29 +130,29 @@ Used DCodes :
 
 *************************************************************
 Generating : Bottom Overlay
-      File : seminar_pcb.GBO
+      File : BLETemp.GBO
 
     Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D27
+    D29
 *************************************************************
 
 *************************************************************
 Generating : Keep-Out Layer
-      File : seminar_pcb.GKO
+      File : BLETemp.GKO
 
     Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D27
+    D29
 *************************************************************
 
 *************************************************************
 Generating : Mechanical 1
-      File : seminar_pcb.GM1
+      File : BLETemp.GM1
 
     Adding Layer      : Mechanical 1
 
