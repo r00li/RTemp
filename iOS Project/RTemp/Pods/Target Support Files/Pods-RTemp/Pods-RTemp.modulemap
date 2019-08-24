@@ -1,0 +1,6 @@
+framework module Pods_RTemp {
+  umbrella header "Pods-RTemp-umbrella.h"
+
+  export *
+  module * { export * }
+}

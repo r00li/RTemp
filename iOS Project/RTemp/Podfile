@@ -1,0 +1,11 @@
+platform :ios, ‘10.0’
+inhibit_all_warnings!
+use_frameworks!
+
+def app_pods
+    pod 'Charts'
+end
+
+target ‘RTemp’ do    
+    app_pods
+end
