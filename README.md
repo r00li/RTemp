@@ -33,6 +33,7 @@ Firmware was built with the official Nordic SDK and is written in C. This does n
 To upload the firmware to the board you will need a suitable ARM SWD programmer (Segger JLink), an STM32 dev board (any that includes STLink should work) or a standalone STLink USB programmer (found on ebay for around 5$).
 
 Precompiled firmware hex file is included in the project. Before you upload the firmware hex file you need to upload Nordic's nrf51 S110 BLE softdevice (v 8.0.0) found with the nordic nrf51 SDK available here:
+
 https://developer.nordicsemi.com/nRF5_SDK/nRF51_SDK_v9.x.x/nRF51_SDK_9.0.0_2e23562.zip
 You will find it inside `components/softdevice/s110/hex` directory. 
 
@@ -52,19 +53,16 @@ If you've built everything correctly and uploaded the firmware, pop in the batte
 Device implements a single custom service (image shows the details) with 4 characteristics - Temperature, Humidity, Temperature Log, Humidity Log.
 
 Temperature is 4 bytes long in the following format:
-
 `AA-<decimal value>-<temperature value>-<sign>`
 
 Everything should be interpreted as an unsigned HEX value. AA is just a marker so that you know the correct order.
 If the sign value is 0 it means that the value is positive, else negative.
 So if you combine everything you should get: 
-
 `<sign><temp.value>.<decimal>`.
 
 Humidity is a single byte value and is humidity value in %.
 
 Temperature log consists of 255 bytes. First byte indicates the current index in the circular buffer. The rest are temperature values in a circular buffer. Values not yet filled are marked with 0xFF. For example:
-
 `<Index>-<Value 1>-<Value 2>-<Value 3>-<FF>-<FF>-...`
 
 First bit indicates the sign (0 means +, 1 means -), second bit indicates that you should add 0.5 to the value (0 means don't add anything, 1 means add 0.5). The rest of the bits are int temperature value. 
